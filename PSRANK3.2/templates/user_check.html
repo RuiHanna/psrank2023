@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PSRANK-轻量级普适性积分排名系统</title>
+    <link rel="stylesheet" href="/static/css/user_check.css" />
+    <link rel="shortcut icon" href="/static/img/胜率.png">
+</head>
+
+<body>
+    <div class="main_css">
+
+        <div id="header_item">
+            <table style="height: 50px;width:100%">
+                <tr>
+                    <td style="width: 20%;">
+                        <span style="font-family: 'Goudy Old Style';font-size: 30px;
+    font-weight: 600;margin:20px">PSRANK</span>
+                    </td>
+                    <td style="width: 10%;">
+                        <span class="mine">
+                            <a href="/user/mine" class="top">我的</a>
+                        </span>
+                    </td>
+                    <td style="width: 10%;">
+                        <span class="make_group">
+                            <a href="/user/make_group" class="top">小组</a>
+                        </span>
+                    </td>
+                    <td style="width: 10%;">
+                        <span class="message">
+                            <a href="/user/message" class="top">系统通知</a>
+                        </span>
+                    </td>
+                    <td style="width: 10%;">
+                        <span class="rank">
+                            <a href="/user/ranking_message" class="top">活动排名</a>
+                        </span>
+                    </td>
+                    <td style="width: 40%;">
+                        <span class="check">
+                            <a href="/user/check" class="top">申请</a>
+                        </span>
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+        <div id="middle">
+            <form method="post" action="">
+                <table style="width: 100%">
+
+                    <tr>
+                        <td style="width:30%;text-align:right">用户名</td>
+                        <td style="width:20%"><input type="text" class="name" name="name"></td>
+                        <td style="width:10%;text-align:right">所属小组</td>
+                        <td style="width:40%"><input type="text" style="width:45%" class="name" name="group"></td>
+                    </tr>
+
+                    <tr>
+                        <td colspan="1" style="text-align: right;">申请内容及理由</td>
+                        <td colspan="3"><textarea class="introduction" name="introduction"></textarea></td>
+                    </tr>
+
+                    <tr>
+                        <td colspan="4">
+                            <div style="width:fit-content;margin: 0 auto;">
+                                <table cellpadding="5px">
+                                    <thead>
+                                        <th colspan="6" style="text-align: center;">审批流程</th>
+                                    </thead>
+                                    <tr>
+                                        <td><img src="/static/img/用户.png" width="50px"></td>
+                                        <td>用户</td>
+                                        <td><img src="/static/img/箭头_向右.png" width="50px"></td>
+                                        <td><img src="/static/img/SQL审核.png" width="50px"></td>
+                                        <td>审核员:</td>
+                                        <td><select name="checker">
+                                                <option>张三</option>
+                                                <option>李四</option>
+                                                <option>王五</option>
+                                                <option>老六</option>
+                                            </select></td>
+                                    </tr>
+
+                                </table>
+                            </div>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td colspan="4">
+                            <div style="margin: 50px auto;width:fit-content">
+                                <button type="submit">申请</button>
+                            </div>
+                        </td>
+                    </tr>
+
+                </table>
+            </form>
+        </div>
+
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,229 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.main_css {
+    width: 100%;
+    display: flex;
+}
+
+#header_item {
+    background-color: #F2F2F2;
+    box-shadow: 0 1px 2px 0 rgb(34 36 38 / 15%);
+    width: 100%;
+    height: 55px;
+    z-index: 99999;
+    top: 0;
+    position: fixed;
+}
+
+#middle {
+    display: inline-block;
+    width: 100%;
+    min-width: 900px;
+}
+
+#sidebar_item {
+    width: 100px;
+    height: 100%;
+    box-shadow: 1px 0 2px 0 rgb(34 36 38 / 15%);
+    background-color: #F2F2F2;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 9999;
+}
+
+.content_right {
+    width: 92%;
+    display: inline-block;
+    margin-left: 100px;
+    margin-top: 55px;
+}
+
+.top {
+    text-decoration: none;
+    font-family: 'Microsoft YaHei';
+    color: #333333;
+}
+
+
+
+
+
+
+.application {
+    width: 120px;
+    height: 35px;
+    padding: 15px 0 0 20px;
+    text-align: center;
+    display: inline-block;
+    background-image: url(/static/img/申请权限.png);
+    background-size: 28px 28px;
+    background-repeat: no-repeat;
+    background-position: 30px 12px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.out {
+    width: 120px;
+    height: 35px;
+    padding: 15px 0 0 20px;
+    text-align: center;
+    display: inline-block;
+    background-image: url(/static/img/退出\,出.png);
+    background-size: 23px 23px;
+    background-repeat: no-repeat;
+    background-position: 36px 15px;
+}
+
+.out:hover {
+    background-color: white;
+    border-radius: 5px;
+}
+
+.message {
+    width: 120px;
+    height: 35px;
+    padding: 15px 0 0 20px;
+    text-align: center;
+    display: inline-block;
+    background-image: url(/static/img/系统通知.png);
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    background-position: 25px 17px;
+}
+
+.message:hover {
+    background-color: white;
+    border-radius: 5px;
+}
+
+.rank {
+    width: 120px;
+    height: 35px;
+    padding: 15px 0 0 20px;
+    text-align: center;
+    display: inline-block;
+    background-image: url(/static/img/排名分析.png);
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    background-position: 22px 14px;
+}
+
+.rank:hover {
+    background-color: white;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+.home {
+    width: 85px;
+    height: 50px;
+    /* margin: 10px 0 10px 20px; */
+    padding: 20px 0 0 15px;
+    text-align: center;
+    display: inline-block;
+    background-image: url(/static/img/主页.png);
+    background-size: 28px 26px;
+    background-repeat: no-repeat;
+    background-position: 11px 16px;
+    background-color: white;
+    border-radius: 8px;
+}
+
+.game {
+    width: 85px;
+    height: 50px;
+    padding: 20px 0 0 15px;
+    text-align: center;
+    display: inline-block;
+    background-image: url(/static/img/游戏.png);
+    background-size: 28px 28px;
+    background-repeat: no-repeat;
+    background-position: 11px 17px;
+}
+
+.game:hover {
+    background-color: white;
+    border-radius: 8px;
+}
+
+.judgement {
+    width: 85px;
+    height: 50px;
+    padding: 20px 0 0 15px;
+    text-align: center;
+    display: inline-block;
+    background-image: url(/static/img/裁判文书.png);
+    background-size: 28px 28px;
+    background-repeat: no-repeat;
+    background-position: 11px 17px;
+}
+
+.judgement:hover {
+    background-color: white;
+    border-radius: 8px;
+}
+
+.checker {
+    width: 85px;
+    height: 50px;
+    padding: 20px 0 0 15px;
+    text-align: center;
+    display: inline-block;
+    background-image: url(/static/img/审核员.png);
+    background-size: 28px 28px;
+    background-repeat: no-repeat;
+    background-position: 13px 15px;
+}
+
+.checker:hover {
+    background-color: white;
+    border-radius: 8px;
+}
+
+
+
+
+
+
+
+
+.section {
+    margin: 30px 0;
+    width: 100%;
+    line-height: 40px;
+    background-color: #F2F2F2;
+}
+
+.circle {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #aecee6;
+    background-repeat: no-repeat;
+    background-size: 40px 40px;
+    background-position: 10px 10px;
+    margin: 0 10px;
+}
+
+button {
+    width: 50px;
+    height: 50px;
+    border: 0;
+    border-radius: 5px;
+    background-color: #aecee6;
+    color: white;
+}
+
+button:hover {
+    color: #797979 !important;
+    background-color: #a3c3da;
+}

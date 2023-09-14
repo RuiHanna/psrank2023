@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PSRANK-轻量级普适性积分排名系统</title>
+    <link rel="stylesheet" href="/static/css/super_edit_admin.css" />
+    <link rel="shortcut icon" href="/static/img/胜率.png">
+</head>
+
+<body>
+    <div class="main_css">
+
+        <div id="header_item">
+            <table style="height: 50px;width:100%">
+                <tr>
+                    <td style="width: 20%;">
+                        <span style="font-family: 'Goudy Old Style';font-size: 30px;
+            font-weight: 600;margin:20px">PSRANK</span>
+                    </td>
+                    <td style="width: 10%;">
+                        <span class="make_ann">
+                            <a href="/super_admin/make_announcement" class="top">编辑公告</a>
+                        </span>
+                    </td>
+                    <td style="width: 10%;">
+                        <span class="edit_admin">
+                            <a href="/super_admin/edit_admin" class="top">编辑管理员</a>
+                        </span>
+                    </td>
+                    <td style="width: 10%;">
+                        <span class="message">
+                            <a href="/super_admin/message" class="top">系统通知</a>
+                        </span>
+                    </td>
+                    <td style="width: 50%;">
+                        <span class="rank">
+                            <a href="/super_admin/ranking_message" class="top">活动排名</a>
+                        </span>
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+        <div id="middle" style="margin-top: 55px;">
+            <form method="post" action="">
+                <table cellspacing="0" style="line-height:50px;text-align: center;margin:50px auto;width:85%">
+
+                    <tr style="background-color: #f2f2f2;">
+                        <td style="width: 15%;padding:0 20px;">张三</td>
+                        <td style="width: 40%;padding:0 20px;">游戏管理员</td>
+                        <td style="width: 9%">
+                            <button type="submit" name="change">替换</button>
+                        </td>
+                        <td style="width: 9%">
+                            <button type="submit" name="give">授权</button>
+                        </td>
+                        <td style="width: 9%">
+                            <button type="submit" name="yes" style="color: #70B603;">同意申请</button>
+                        </td>
+                        <td style="width: 9%">
+                            <button type="submit" name="no">拒绝申请</button>
+                        </td>
+                        <td style="width: 9%">
+                            <button type="submit" name="delete" style="color: #D9001B;">删除</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="width: 15%;padding:0 20px;">张三</td>
+                        <td style="width: 40%;padding:0 20px;">规则管理员</td>
+                        <td style="width: 9%">
+                            <button type="submit" name="change">替换</button>
+                        </td>
+                        <td style="width: 9%">
+                            <button type="submit" name="give">授权</button>
+                        </td>
+                        <td style="width: 9%">
+                            <button type="submit" name="yes" style="color: #70B603;">同意申请</button>
+                        </td>
+                        <td style="width: 9%">
+                            <button type="submit" name="no">拒绝申请</button>
+                        </td>
+                        <td style="width: 9%">
+                            <button type="submit" name="delete" style="color: #D9001B;">删除</button>
+                        </td>
+                    </tr>
+                    <tr style="background-color: #f2f2f2;">
+                        <td style="width: 15%;padding:0 20px;">张三</td>
+                        <td style="width: 40%;padding:0 20px;">裁判</td>
+                        <td style="width: 9%">
+                            <button type="submit" name="change">替换</button>
+                        </td>
+                        <td style="width: 9%">
+                            <button type="submit" name="give">授权</button>
+                        </td>
+                        <td style="width: 9%">
+                            <button type="submit" name="yes" style="color: #70B603;">同意申请</button>
+                        </td>
+                        <td style="width: 9%">
+                            <button type="submit" name="no">拒绝申请</button>
+                        </td>
+                        <td style="width: 9%">
+                            <button type="submit" name="delete" style="color: #D9001B;">删除</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="width: 15%;padding:0 20px;">张三</td>
+                        <td style="width: 40%;padding:0 20px;">裁判</td>
+                        <td style="width: 9%">
+                            <button type="submit" name="change">替换</button>
+                        </td>
+                        <td style="width: 9%">
+                            <button type="submit" name="give">授权</button>
+                        </td>
+                        <td style="width: 9%">
+                            <button type="submit" name="yes" style="color: #70B603;">同意申请</button>
+                        </td>
+                        <td style="width: 9%">
+                            <button type="submit" name="no">拒绝申请</button>
+                        </td>
+                        <td style="width: 9%">
+                            <button type="submit" name="delete" style="color: #D9001B;">删除</button>
+                        </td>
+                    </tr>
+                    <tr style="background-color: #f2f2f2;">
+                        <td style="width: 15%;padding:0 20px;">张三</td>
+                        <td style="width: 40%;padding:0 20px;">审核员</td>
+                        <td style="width: 9%">
+                            <button type="submit" name="change">替换</button>
+                        </td>
+                        <td style="width: 9%">
+                            <button type="submit" name="give">授权</button>
+                        </td>
+                        <td style="width: 9%">
+                            <button type="submit" name="yes" style="color: #70B603;">同意申请</button>
+                        </td>
+                        <td style="width: 9%">
+                            <button type="submit" name="no">拒绝申请</button>
+                        </td>
+                        <td style="width: 9%">
+                            <button type="submit" name="delete" style="color: #D9001B;">删除</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="width: 15%;padding:0 20px;">张三</td>
+                        <td style="width: 40%;padding:0 20px;"></td>
+                        <td style="width: 9%">
+                            <button type="submit" name="change">替换</button>
+                        </td>
+                        <td style="width: 9%">
+                            <button type="submit" name="give">授权</button>
+                        </td>
+                        <td style="width: 9%">
+                            <button type="submit" name="yes" style="color: #70B603;">同意申请</button>
+                        </td>
+                        <td style="width: 9%">
+                            <button type="submit" name="no">拒绝申请</button>
+                        </td>
+                        <td style="width: 9%">
+                            <button type="submit" name="delete" style="color: #D9001B;">删除</button>
+                        </td>
+                    </tr>
+                    <tr style="background-color: #f2f2f2;">
+                        <td style="width: 15%;padding:0 20px;">张三</td>
+                        <td style="width: 40%;padding:0 20px;"></td>
+                        <td style="width: 9%">
+                            <button type="submit" name="change">替换</button>
+                        </td>
+                        <td style="width: 9%">
+                            <button type="submit" name="give">授权</button>
+                        </td>
+                        <td style="width: 9%">
+                            <button type="submit" name="yes" style="color: #70B603;">同意申请</button>
+                        </td>
+                        <td style="width: 9%">
+                            <button type="submit" name="no">拒绝申请</button>
+                        </td>
+                        <td style="width: 9%">
+                            <button type="submit" name="delete" style="color: #D9001B;">删除</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="width: 15%;padding:0 20px;">张三</td>
+                        <td style="width: 40%;padding:0 20px;"></td>
+                        <td style="width: 9%">
+                            <button type="submit" name="change">替换</button>
+                        </td>
+                        <td style="width: 9%">
+                            <button type="submit" name="give">授权</button>
+                        </td>
+                        <td style="width: 9%">
+                            <button type="submit" name="yes" style="color: #70B603;">同意申请</button>
+                        </td>
+                        <td style="width: 9%">
+                            <button type="submit" name="no">拒绝申请</button>
+                        </td>
+                        <td style="width: 9%">
+                            <button type="submit" name="delete" style="color: #D9001B;">删除</button>
+                        </td>
+                    </tr>
+                    <tr style="background-color: #f2f2f2;">
+                        <td colspan="7" style="height: 50px;"></td>
+                    </tr>
+                    <tr>
+                        <td colspan="7" style="height: 50px;"></td>
+                    </tr>
+                    <tr style="background-color: #f2f2f2;">
+                        <td colspan="7" style="height: 50px;"></td>
+                    </tr>
+
+                </table>
+            </form>
+
+        </div>
+
+    </div>
+</body>
+
+</html>

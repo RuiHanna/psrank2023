@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+}
+
+#header_item {
+    font-family: 'Goudy Old Style';
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 50px;
+    box-shadow: 0 1px 2px 0 rgb(34 36 38 / 15%);
+    background-color: #F2F2F2;
+}
+
+.empty_area {
+    height: 109px;
+}
+
+.form {
+    border: 1px solid rgb(182, 182, 182);
+    padding: 10px;
+    display: inline-block;
+    border-radius: 5px;
+    border-color: #D7D7D7;
+    box-shadow: 1px 1px 5px #D7D7D7;
+}
+
+.user_input1 {
+    padding-left: 30px;
+    width: 270px;
+    height: 25px;
+    border-radius: 5px;
+    margin: 5px;
+    background-image: url(/static/img/登录用户.svg);
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    background-position: 8px 3px;
+    border-color: #D7D7D7;
+    background-color: #FFFFF0;
+}
+
+.user_input2 {
+    padding-left: 30px;
+    width: 270px;
+    height: 25px;
+    border-radius: 5px;
+    margin: 5px;
+    background-image: url(/static/img/密码（关）.svg);
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    background-position: 8px 3px;
+    border-color: #D7D7D7;
+    background-color: #FFFFF0;
+}
+
+.user_id {
+    text-align: center;
+    margin: 5px;
+}
+
+.buttons {
+    text-align: center;
+    border-radius: 5px;
+    width: 300px;
+    height: 35px;
+    margin: 5px;
+    border-width: 0px;
+    background-color: #D7D7D7;
+    font-weight: 600;
+}
+
+.buttons:hover {
+    background-color: #bfbfbf;
+}
+
+.find_password {
+    font-size: 15px;
+    text-decoration: none;
+    color: #02A7F0
+}
+
+.find_password:hover {
+    color: cornflowerblue
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PSRANK-轻量级普适性积分排名系统</title>
+    <link rel="stylesheet" href="/static/css/login.css" />
+</head>
+
+<body>
+    <div id="header_item">PSRANK</div>
+
+    <div class="empty_area"></div>
+
+    <div style="margin: 0 auto;width:fit-content;">
+        <form method="post" action="/login/announcement" class="form">
+
+            <input type="text" name='name' class="user_input1" placeholder="请输入用户名">
+            <br>
+            <input type="password" name='password' class="user_input2" placeholder="请输入密码">
+
+            <div class="user_id">
+                <input type="radio" name="identity" value="super_admin" style="margin:0 5px 0 5px">超级管理员
+                <input type="radio" name="identity" value="admin" style="margin: 0 5px 0 25px;">管理员
+                <input type="radio" name="identity" value="user" style="margin: 0 5px 0 25px;">用户
+            </div>
+            <div>
+                <button name="login" type="submit" class="buttons">登录</button>
+            </div>
+            <div>
+                <button name="register" type="submit" class="buttons">注册</button>
+            </div>
+        </form>
+    </div>
+
+    <div style="text-align: center;margin: 10px;">
+        <a href="" target="_blank" class="find_password">找回密码</a>
+    </div>
+
+</body>
+
+</html>
